@@ -1,0 +1,89 @@
+/* Resets */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Styling */
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    height: 400px;
+    width: 100%;
+}
+
+.margin-box {
+    margin: 0 300px 0 300px;
+    height: 100%;
+}
+
+/* Section 1 */
+
+.section-1 {
+    background-color: #1F2937;
+}
+
+.hero-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.site-head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    flex: 1;
+}
+
+.site-nav {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+}
+
+.site-nav a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+/* Section 3 */
+
+.section-3 {
+    background-color: #E5E7EB;
+}
+
+/* Footer */
+
+.foot {
+    height: 100px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
