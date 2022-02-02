@@ -14,3 +14,62 @@
     --gray-color: #E5E7EB;
     --blue-color: #3882F6;
 }
+
+/* Global */
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    height: 400px;
+}
+
+.margin {
+    margin: 0 250px 0 250px;
+}
+
+/* Section 1 */
+
+.section-1 {
+    background-color: var(--dark-blue-color);
+}
+
+/* Section 2 */
+
+.section-2 {
+
+}
+
+/* Section 3 */
+
+.section-3 {
+    background-color: var(--gray-color);
+}
+
+/* Section 4 */
+
+.section-4 {
+
+}
+
+/* Footer */
+
+.foot {
+    height: 100px;
+    background-color: var(--dark-blue-color);
+}
+
+.foot-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-text {
+    color: var(--white-color);
+}
