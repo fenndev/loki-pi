@@ -1,20 +1,16 @@
-/*
+/* Resets */
 
-Dark background color: #1F2937
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-Quote section background color: #E5E7EB
+/* Variables */
 
-Button color, cta background color: #3882F6
-
-Main Text: 48px extra-bold #F9FAF8
-
-Secondary Text, Header Link Text: 18px #E5E7EB
-
-Header logo text: 24px #F9FAF8
-
-Information header text: 36px extra-bold #1F2937
-
-Quote Text: 36px light italic #1F2937
-
-*/
-
+:root {
+    --dark-blue-color: #1F2937;
+    --white-color: #F9FAF8;
+    --gray-color: #E5E7EB;
+    --blue-color: #3882F6;
+}
