@@ -128,8 +128,11 @@ body {
     align-items: center;
     width: 50%;
     height: 100%;
-    background-color: var(--dark-gray-color);
-    color: var(--white-color);
+}
+
+.hero-img img {
+    width: 100%;
+    filter: invert(100%);
 }
 
 .empty-div {
@@ -160,17 +163,25 @@ body {
     font-size: 36px;
     font-weight: 900;
     color: var(--dark-blue-color);
+    margin: 20px 0 20px 0;
 }
 
 .image-container {
     display: flex;
-    flex: 2 1 auto;
+    flex: 1 0 auto;
     justify-content: space-around;
 }
 
 .placeholder-image {
-    width: 50%;
-    height: 50%;
+    width: 200px;
+    height: 200px;
+    flex: 0 0 auto;
+}
+
+.client-images {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
     border: 4px solid var(--blue-color);
     border-radius: 10px;
 }
@@ -182,8 +193,7 @@ body {
 }
 
 .image-subtext {
-    flex: 1 1 auto;
-    margin: 10px 60px 20px 60px;
+    padding: 20px 0 20px 0;
     text-align: center;
     font-size: 18px;
     color: var(--dark-blue-color);
@@ -261,11 +271,10 @@ body {
 
 .cta-text p {
     color: var(--gray-color);
-    font-size: 18px;
 }
 
 .cta-button {
-    margin: 0 60px 0 0;
+    margin: 0 60px 0 50px;
     padding: 10px 40px;
     border: 2px var(--white-color) solid;
     border-radius: 10px;
@@ -273,6 +282,7 @@ body {
     color: var(--white-color);
     font-weight: 900;
     font-size: 18px;
+    white-space: nowrap;
 }
 
 /* Footer */
